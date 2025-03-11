@@ -47,6 +47,7 @@ function writeHikes() {
     //define a variable for the collection you want to create in Firestore to populate data
     var hikesRef = db.collection("hikes");
 
+    // hikesRef.add({
     hikesRef.add({
         code: "BBY01",
         name: "Burnaby Lake Park Trail", //replace with your own city?
